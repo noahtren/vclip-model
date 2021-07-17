@@ -42,8 +42,9 @@ class VCLIP(nn.Module):
   def __call__(self, text, img):
     return {"text": self.embed_text(text), "vision": self.embed_img(img)}
 
+
 if __name__ == "__main__":
   clip_model = VCLIP()
-  clip_params = flax.serialization.from_bytes(flax.optim.Adam(),
-                                            open("./8a185d.ckpt",
-                                                 "rb").read())['target']
+  clip_params = flax.serialization.from_bytes(
+      clip_model,
+      open("./vclip.ckpt", "rb").read())

@@ -1,6 +1,6 @@
-VCLIP is an extension of OpenAI's CLIP for variational inference. It was fine-tuned on a subset of [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/). This repo contains the simple implementation code and a link to the weights. This implementation is an extension of the HuggingFace [FlaxCLIPModel](https://huggingface.co/transformers/model_doc/clip.html#flaxclipmodel).
+VCLIP is an extension of OpenAI's CLIP for variational inference. It was fine-tuned on a subset of [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/). This repo contains the simple implementation code and a link to the weights. The implementation is an extension of HuggingFace's [FlaxCLIPModel](https://huggingface.co/transformers/model_doc/clip.html#flaxclipmodel).
 
-[Pretrained weights download (Google Cloud Storage)](https://storage.googleapis.com/noahtren-public/vclip.ckpt).
+[Pretrained weights (Google Cloud Storage)](https://storage.googleapis.com/noahtren-public/vclip.ckpt).
 
 ---
 
